@@ -42,7 +42,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden mt-3 space-y-2 items-center text-center mt-55 font-bold text-xl">
+        <div className="md:hidden mt-3 space-y-2 items-center text-center mt-60 font-bold text-xl">
           <a
             href="#home"
             className={linkClass}
@@ -69,7 +69,7 @@ const Navbar = () => {
               href="https://wa.me/7739002652"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 text-white px-4 py-2 rounded-xl hover:bg-green-600 transition text-center mb-55"
+              className="bg-green-500 text-white px-4 py-2 rounded-xl hover:bg-green-600 transition text-center mb-60"
               onClick={() => setIsOpen(false)}
             >
               WhatsApp
