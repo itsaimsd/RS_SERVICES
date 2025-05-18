@@ -88,7 +88,6 @@ const Footer = () => {
             </div>
           </div>
           <p>© 2025 StaffChahiye. All rights reserved.</p>
-          <p>Built with 🧡 by Sujān</p>
           <div className="mt-2 flex justify-center gap-4">
             <a href="#" className="hover:underline">
               Privacy Policy
