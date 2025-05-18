@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md px-4 py-3 flex items-center justify-between fixed top-0 w-full z-50">
       {/* Logo */}
-      <div className="text-xl font-bold text-green-600">RS Services</div>
+      <div className="text-xl font-bold text-green-600">StaffChahiye</div>
 
       {/* Navigation Links */}
       <div className="space-x-6 hidden md:flex">
