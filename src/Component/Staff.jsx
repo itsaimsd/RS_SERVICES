@@ -77,7 +77,7 @@ const Staff = () => {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-5 py-2 rounded-full text-sm border ${
+              className={`px-5 py-2 rounded-full text-sm border cursor-pointer ${
                 selectedCategory === cat
                   ? "bg-orange-500 text-white"
                   : "bg-white text-gray-700 border-gray-300"
