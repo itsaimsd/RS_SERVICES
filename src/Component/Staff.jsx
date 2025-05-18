@@ -61,7 +61,7 @@ const Staff = () => {
       : staffData.filter((member) => member.category === selectedCategory);
 
   return (
-    <section id="staff" className="min-h-screen px-8 py-10 bg-gray-50 mb-90">
+    <section id="staff" className="min-h-screen px-4 py-10 bg-gray-50 mb-90">
       <div className="max-w-8xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-2 text-gray-900">
           We've all types of staff available for you!
@@ -93,7 +93,7 @@ const Staff = () => {
           {filteredStaff.map(({ id, role, description, category }) => (
             <div
               key={id}
-              className="bg-white rounded-2xl p-6 shadow hover:shadow-md transition min-h-[230px]"
+              className="bg-white rounded-2xl p-4 shadow hover:shadow-md transition min-h-[230px]"
             >
               <div className="flex justify-between mb-4">
                 <span className="text-sm font-medium bg-orange-100 text-orange-400 px-3 py-1 rounded-full">

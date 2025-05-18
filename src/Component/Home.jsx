@@ -10,11 +10,12 @@ const Home = () => {
     >
       {/* Logo & Title */}
       <div className="mb-6">
-        <h1 className="text-5xl sm:text-10xl font-extrabold text-gray-900 flex items-center justify-center gap-2">
+        <h1 className="text-4xl sm:text-7xl font-extrabold text-gray-900 flex items-center justify-center gap-2 text-center">
           <span className="text-gray-900">Staff</span>
-          <span className="text-orange-500 -mt-2 text-4xl">↗</span>
+          <span className="text-orange-500 -mt-2 text-3xl sm:text-5xl">↗</span>
           <span className="text-gray-600">Chahiye.com</span>
         </h1>
+
         <p className="text-gray-500 mt-2 text-lg">
           The Right Staff, At the Right Time
         </p>

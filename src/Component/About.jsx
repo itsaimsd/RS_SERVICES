@@ -4,9 +4,9 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen px-8 py-20 bg-white text-gray-800"
+      className="min-h-screen px-4 py-20 bg-white text-gray-800"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-8xl mx-auto">
         <div className="text-center mb-16">
           <h3 className="text-base font-semibold text-orange-500 tracking-widest uppercase">
             Our Mission
@@ -19,7 +19,7 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-14">
           {/* Left side content */}
-          <div className="bg-white p-8 rounded-2xl shadow-md text-lg leading-relaxed">
+          <div className="bg-white p-4 rounded-2xl shadow-md text-lg leading-relaxed">
             <p className="mb-6">
               <strong>StaffChahiye</strong> started as a social service project
               to help underserved blue collar workers get employment and earn a
