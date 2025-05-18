@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,24 +18,7 @@ const Footer = () => {
               making a real social impact.
             </p>
             <div className="flex items-center gap-2 mt-4">
-              <span className="text-orange-500 text-lg">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-5 h-5"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 6.5 3.5 5
-              5.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5
-              5 18.5 5 20 6.5 20 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
-                  />
-                </svg>
-              </span>
+              <span className="text-orange-500 text-lg">❤️</span>
               <p>Making a difference, one staff at a time!</p>
             </div>
           </div>
@@ -94,22 +79,12 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom strip */}
-        <div className="mt-10 border-t pt-6 text-center text-xs text-gray-600">
+        {/* Bottom strip with Instagram */}
+
+        <div className="mt-10 border-t border-gray-200 pt-6 text-center text-xs text-gray-600">
           <div className="flex justify-center mb-2">
-            <div className="bg-gray-100 p-2 rounded-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                className="w-5 h-5 text-gray-600"
-              >
-                <path
-                  d="M12 2.2C6.6 2.2 2.2 6.6 2.2 12S6.6 21.8 12 21.8 21.8 17.4 21.8
-           12 17.4 2.2 12 2.2zm0 17.6c-3.7 0-6.8-3-6.8-6.8S8.3 6.2 12 6.2s6.8 3 6.8
-           6.8-3 6.8-6.8 6.8zm3.2-6.1c-.1-.3-.3-.6-.6-.9s-.5-.5-.9-.6c-.3-.1-.9-.2-1.8-.2s-1.5.1-1.8.2c-.3.1-.6.3-.9.6s-.5.6-.6.9c-.1.3-.2.9-.2 1.8s.1 1.5.2 1.8c.1.3.3.6.6.9s.5.5.9.6c.3.1.9.2 1.8.2s1.5-.1 1.8-.2c.3-.1.6-.3.9-.6s.5-.6.6-.9c.1-.3.2-.9.2-1.8s-.1-1.5-.2-1.8z"
-                />
-              </svg>
+            <div className="bg-gray-100 p-2 rounded-full text-orange-500 text-xl">
+              <FontAwesomeIcon icon={faInstagram} />
             </div>
           </div>
           <p>© 2025 StaffChahiye. All rights reserved.</p>
