@@ -1,10 +1,55 @@
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import { ChevronDownIcon } from "@heroicons/react/24/outline"; // Heroicons v2
 
 const Home = () => {
   return (
-    <section id="home" className="min-h-screen p-8 bg-gray-50">
-      <h1 className="text-4xl font-bold mb-4">Home Section</h1>
-      <p>Welcome to the home section of the site.</p>
+    <section
+      id="home"
+      className="min-h-screen bg-gray-50 flex flex-col items-center justify-center text-center px-4 font-sans"
+    >
+      {/* Logo & Title */}
+      <div className="mb-6">
+        <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-900 flex items-center justify-center gap-2">
+          <span className="text-gray-900">Staff</span>
+          <span className="text-orange-500 -mt-2 text-4xl">↗</span>
+          <span className="text-gray-600">Chahiye.com</span>
+        </h1>
+        <p className="text-gray-500 mt-2 text-lg">
+          The Right Staff, At the Right Time
+        </p>
+      </div>
+
+      {/* Hero Heading */}
+      <div className="mb-6">
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+          Get the Right Staff,
+          <br />
+          <span className="text-orange-500">At the Right Time!</span>
+        </h2>
+        <p className="mt-4 text-gray-600 max-w-xl mx-auto">
+          The only service you'll ever need for your staff requirements
+          <br />
+          (seriously)!
+        </p>
+      </div>
+
+      {/* WhatsApp Button */}
+      <a
+        href="https://wa.me/7739002652"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold flex items-center gap-2 transition mb-6"
+      >
+        <FaWhatsapp className="text-xl" />
+        WhatsApp Us
+      </a>
+
+      {/* Down Arrow Icon */}
+      {/* Down Arrow Icon with scroll */}
+      <a href="#about" className="mt-2">
+        <ChevronDownIcon className="w-8 h-8 text-orange-500 animate-bounce cursor-pointer" />
+      </a>
     </section>
   );
 };
