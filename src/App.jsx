@@ -2,6 +2,7 @@ import Navbar from "./Component/Navbar/navbar";
 import Home from "./Component/Home";
 import About from "./Component/About";
 import Staff from "./Component/Staff";
+import Footer from "./Component/footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <About />
         <Staff />
       </main>
+      <Footer />
     </>
   );
 };
