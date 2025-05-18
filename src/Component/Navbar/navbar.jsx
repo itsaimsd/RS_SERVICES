@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-white shadow-md px-4 py-3 fixed top-0 w-full z-50">
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <div className="text-xl font-bold text-green-600">StaffChahiye</div>
+        <div className="text-xl font-bold text-green-600">RS Services</div>
 
         {/* Desktop Navigation */}
         <div className="space-x-6 hidden md:flex items-center">
@@ -42,7 +42,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden mt-3 space-y-2 items-center text-center mt-60 font-bold text-xl">
+        <div className="md:hidden mt-3 space-y-2 items-center text-center mt-45 font-bold text-xl">
           <a
             href="#home"
             className={linkClass}
@@ -69,7 +69,7 @@ const Navbar = () => {
               href="https://wa.me/7739002652"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 text-white px-4 py-2 rounded-xl hover:bg-green-600 transition text-center mb-70"
+              className="bg-green-500 text-white px-4 py-2 rounded-xl hover:bg-green-600 transition text-center mb-65"
               onClick={() => setIsOpen(false)}
             >
               WhatsApp

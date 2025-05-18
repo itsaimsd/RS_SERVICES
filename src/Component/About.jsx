@@ -21,7 +21,7 @@ const About = () => {
           {/* Left side content */}
           <div className="bg-white p-4 rounded-2xl shadow-md text-lg leading-relaxed">
             <p className="mb-6">
-              <strong>StaffChahiye</strong> started as a social service project
+              <strong>RS Serices</strong> started as a social service project
               to help underserved blue collar workers get employment and earn a
               livelihood for their families.
             </p>

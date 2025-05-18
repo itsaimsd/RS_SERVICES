@@ -10,8 +10,8 @@ const Footer = () => {
           {/* Left: Brand and mission */}
           <div>
             <h2 className="text-xl font-bold">
-              <span className="text-orange-500">Staff</span>
-              Chahiye<span className="text-gray-300">.com</span>
+              <span className="text-orange-500">RS </span>
+              <span className="text-gray-300">Services</span>
             </h2>
             <p className="mt-4">
               Connecting & supporting underserved workers with businesses and
@@ -62,18 +62,17 @@ const Footer = () => {
               <li className="flex gap-2 items-start">
                 <span className="text-orange-500 mt-1">📍</span>
                 <span>
-                  ndls new delhi ra, <br />
-                  Banaras Hindu University (BHU), <br />
+                  Boaring road (patna), <br />
                   India, 221005.
                 </span>
               </li>
               <li className="flex gap-2 items-center">
                 <span className="text-orange-500">📞</span>
-                <span>+91 9999999999</span>
+                <span>+91 8544369195</span>
               </li>
               <li className="flex gap-2 items-center">
                 <span className="text-orange-500">✉️</span>
-                <span>info@Chahiye.com</span>
+                <span>info@rsservices.com</span>
               </li>
             </ul>
           </div>
@@ -87,7 +86,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faInstagram} />
             </div>
           </div>
-          <p>© 2025 StaffChahiye. All rights reserved.</p>
+          <p>© 2025 RS. All rights reserved.</p>
           <div className="mt-2 flex justify-center gap-4">
             <a href="#" className="hover:underline">
               Privacy Policy
