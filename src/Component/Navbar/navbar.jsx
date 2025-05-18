@@ -23,7 +23,7 @@ const Navbar = () => {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/7739002652"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
