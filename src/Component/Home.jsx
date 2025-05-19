@@ -37,7 +37,7 @@ const Home = () => {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/8544369195"
+        href="https://wa.me/918544369195"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold flex items-center gap-2 transition mb-6"
