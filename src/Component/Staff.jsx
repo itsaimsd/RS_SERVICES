@@ -61,7 +61,7 @@ const Staff = () => {
       : staffData.filter((member) => member.category === selectedCategory);
 
   return (
-    <section id="staff" className="min-h-screen px-10 py-10 bg-gray-50 mb-90">
+    <section id="staff" className="min-h-screen px-6 py-10 bg-gray-50 mb-90">
       <div className="max-w-8xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-2 text-gray-900 mt-5">
           We've all types of staff available for you!
