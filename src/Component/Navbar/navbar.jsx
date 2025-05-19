@@ -23,7 +23,7 @@ const Navbar = () => {
             Staff
           </a>
           <a
-            href="https://wa.me/7739002652"
+            href="https://wa.me/8544369195"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
@@ -66,7 +66,7 @@ const Navbar = () => {
           </a>
           <div className="flex justify-center">
             <a
-              href="https://wa.me/7739002652"
+              href="https://wa.me/8544369195"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white px-4 py-2 rounded-xl hover:bg-green-600 transition text-center mb-85"

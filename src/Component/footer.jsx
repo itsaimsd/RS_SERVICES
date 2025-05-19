@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,20 +34,21 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-500">
+                <a href="#about" className="hover:text-orange-500">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-500">
+                <a href="#staff" className="hover:text-orange-500">
                   Staff
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-500">
+                <Link href="/privacyPolicy" className="hover:text-orange-500">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
+
               <li>
                 <a href="#" className="hover:text-orange-500">
                   Terms of Service
@@ -62,8 +64,8 @@ const Footer = () => {
               <li className="flex gap-2 items-start">
                 <span className="text-orange-500 mt-1">📍</span>
                 <span>
-                  Boaring road (patna), <br />
-                  India, 221005.
+                  2320,kamaldah path, pahari <br />
+                  patna, 800008.
                 </span>
               </li>
               <li className="flex gap-2 items-center">
@@ -83,7 +85,14 @@ const Footer = () => {
         <div className="mt-10 border-t border-gray-200 pt-6 text-center text-xs text-gray-600">
           <div className="flex justify-center mb-2">
             <div className="bg-gray-100 p-2 rounded-full text-orange-500 text-xl">
-              <FontAwesomeIcon icon={faInstagram} />
+              <a
+                href="https://www.instagram.com/rsservices5?igsh=MXhsM2pwMzRpZm9wdQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-orange-500"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
             </div>
           </div>
           <p>© 2025 RS. All rights reserved.</p>

@@ -16,17 +16,17 @@ const Home = () => {
           <span className="text-gray-600 text-xl">Services</span>
         </h1>
 
-        <p className="text-gray-500 mt-2 text-lg">
+        <p className="text-gray-500 mt-5 text-lg">
           The Right Staff, At the Right Time
         </p>
       </div>
 
       {/* Hero Heading */}
       <div className="mb-6">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight ">
           Get the Right Staff,
           <br />
-          <span className="text-orange-500">At the Right Time!</span>
+          <span className="text-orange-500 mt-2">At the Right Time!</span>
         </h2>
         <p className="mt-4 text-gray-600 max-w-xl mx-auto">
           The only service you'll ever need for your staff requirements
@@ -37,7 +37,7 @@ const Home = () => {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/7739002652"
+        href="https://wa.me/8544369195"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold flex items-center gap-2 transition mb-6"

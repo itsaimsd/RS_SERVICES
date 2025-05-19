@@ -61,18 +61,18 @@ const Staff = () => {
       : staffData.filter((member) => member.category === selectedCategory);
 
   return (
-    <section id="staff" className="min-h-screen px-4 py-10 bg-gray-50 mb-90">
+    <section id="staff" className="min-h-screen px-10 py-10 bg-gray-50 mb-90">
       <div className="max-w-8xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-2 text-gray-900">
+        <h1 className="text-4xl font-bold text-center mb-2 text-gray-900 mt-5">
           We've all types of staff available for you!
         </h1>
-        <p className="text-center text-gray-500 mb-10">
+        <p className="text-center text-gray-500 mb-10 mt-5">
           The right time is now! Reach out to us today, and we'll help you find
           the right staff for your business.
         </p>
 
         {/* Category Filters */}
-        <div className="flex flex-wrap justify-center gap-3 mb-10">
+        <div className="flex flex-wrap justify-center gap-3 mb-10 mt-8">
           {categories.map((cat) => (
             <button
               key={cat}
