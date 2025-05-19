@@ -26,7 +26,7 @@ const Footer = () => {
 
           {/* Center: Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <h3 className=" mb-4 font-bold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="hover:text-orange-500">
@@ -59,7 +59,7 @@ const Footer = () => {
 
           {/* Right: Contact */}
           <div>
-            <h3 className="font-semibold mb-4">Contact Us</h3>
+            <h3 className="font-bold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex gap-2 items-start">
                 <span className="text-orange-500 mt-1">📍</span>
