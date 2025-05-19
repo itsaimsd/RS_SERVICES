@@ -9,7 +9,11 @@ const Navbar = () => {
     <nav className="bg-white shadow-md px-4 py-3 fixed top-0 w-full z-50">
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <div className="text-xl font-bold text-green-600">RS Services</div>
+        <div className="text-xl font-bold text-green-600">
+          <a href="#" className="flex items-center">
+            RS Services
+          </a>
+        </div>
 
         {/* Desktop Navigation */}
         <div className="space-x-6 hidden md:flex items-center">
